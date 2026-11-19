@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0f1115">
+  <title>Расписание 2П065</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div class="top">
+      <div id="date"></div>
+      <div id="week"></div>
+    </div>
+    <div class="seg" id="day">
+      <button data-v="today" class="on">Сегодня</button>
+      <button data-v="tomorrow">Завтра</button>
+    </div>
+    <div class="seg" id="sub">
+      <button data-v="2" class="on">2 подгруппа</button>
+      <button data-v="1">1 подгруппа</button>
+      <button data-v="all">Общее</button>
+    </div>
+    <div id="note"></div>
+  </header>
+  <main id="list"></main>
+  <script src="/app.js"></script>
+</body>
+</html>
